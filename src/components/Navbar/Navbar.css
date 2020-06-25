@@ -1,0 +1,28 @@
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-nav img {
+  width: 320px;
+}
+
+.links {
+  margin-left: auto;
+}
+
+.links ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.links li {
+  margin-left: 15px;
+}

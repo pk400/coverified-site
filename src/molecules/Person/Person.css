@@ -1,0 +1,18 @@
+.person-card {
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+.person-card .name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.person-card .position {
+  font-weight: bold;
+}
+
+.person-card .description {
+  font-style: italic;
+}
