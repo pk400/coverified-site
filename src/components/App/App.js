@@ -28,7 +28,7 @@ const App = () => {
         </section>
         <section>
           <span>We’re one of the winners of MIT’s Beat the Pandemic Challenge blah blah</span>
-          <img src='/mit_logo.png' />
+          <img src='/mit_logo.png' alt='MIT hackathon logo' />
         </section>
         <section className='centered'>
           <div>

@@ -6,7 +6,7 @@ const Content = ({children}) => {
   return (
     <div>
       {children.map((child, i) =>
-        <div className={'content-section' + (i % 2 == 0 ? ' primary' : ' secondary')}>
+        <div className={'content-section' + (i % 2 === 0 ? ' primary' : ' secondary')}>
           {child}
         </div>
       )}

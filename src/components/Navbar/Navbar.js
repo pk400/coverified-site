@@ -13,7 +13,7 @@ const Navbar = ({
   return (
     <div className={'top-nav' + (fixed ? ' fixed' : '')}>
       <div style={customStyles}>
-        <img src={logoSrc} />
+        <img src={logoSrc} alt='CoVerified logo' />
       </div>
       <nav className='links' style={customStyles}>
         <ul>
