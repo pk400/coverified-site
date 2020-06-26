@@ -4,14 +4,12 @@ import './NavbarLink.css'
 
 const NavbarLink = ({
   text,
-  href,
+  onClick,
   selected=false
 }) => {
-  return (
-    <div className={'navbar-link' + (selected ? ' selected' : '')}>
-      <a href={href}>{text}</a>
-    </div>
-  )
+  return <button
+    className={'navbar-link' + (selected ? ' selected' : '')}
+    onClick={onClick}>{text}</button>
 }
 
 export default NavbarLink

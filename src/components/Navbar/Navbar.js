@@ -7,15 +7,12 @@ const Navbar = ({
   logoSrc,
   fixed=false
 }) => {
-  const customStyles = {
-    margin: '30px'
-  }
   return (
     <div className={'top-nav' + (fixed ? ' fixed' : '')}>
-      <div style={customStyles}>
+      <div className='navbar-logo'>
         <img src={logoSrc} alt='CoVerified logo' />
       </div>
-      <nav className='links' style={customStyles}>
+      <nav className='links'>
         <ul>
           {children.map((navbarLink, i) =>
             <li key={i}>{navbarLink}</li>)}

@@ -1,7 +1,32 @@
 body {
-  /* font-family: 'Quantico', sans-serif; */
   font-family: 'Montserrat', sans-serif;
-  font-size: 100%;
+  font-size: 18px;
   color: #2a2a2a;
   font-weight: 600;
+}
+
+.cols-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cols-2 span, .cols-2 img {
+  flex: 50%;
+}
+
+section {
+  padding: 3em;
+}
+
+section img {
+  vertical-align: middle;
+}
+
+.section a {
+  transition: all 0.5s ease;
+}
+
+.centered {
+  text-align: center;
 }

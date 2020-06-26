@@ -1,3 +1,17 @@
 .navbar-link {
-  font-size: 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #FFF;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+
+.navbar-link:link, .navbar-link:visited {
+  color: #2a2a2a;
+}
+
+.navbar-link:hover {
+  color: #5e5e5e;
 }

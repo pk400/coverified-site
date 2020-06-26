@@ -1,4 +1,28 @@
-.contact-form {
+.contact-form, textarea {
   width: 600px;
+}
+
+.contact-form {
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-group {
+  flex-grow: 2;
+  padding: 20px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+}
+.form-group input {
+  width: 100%;
+}
+
+.button {
   margin: 0 auto;
 }

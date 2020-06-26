@@ -6,14 +6,3 @@
   background-color: #FFFFFF;
 }
 
-section {
-  padding: 50px;
-}
-
-section img {
-  vertical-align: middle;
-}
-
-section.centered {
-  text-align: center;
-}
